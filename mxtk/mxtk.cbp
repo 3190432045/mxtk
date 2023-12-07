@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mxtk" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="../common/mxtk" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../temp/mxtk/!release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-march=i386" />
+					<Add option="-O2" />
+					<Add option="-std=c++98" />
+					<Add option="-m32" />
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-fpermissive" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add directory="../mxtk" />
+					<Add directory="../common" />
+				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="../common/mxtk" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../temp/mxtk/!debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-march=i386" />
+					<Add option="-std=c++98" />
+					<Add option="-m32" />
+					<Add option="-g" />
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-fpermissive" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add directory="../mxtk" />
+					<Add directory="../common" />
+				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="GL.H" />
+		<Unit filename="MX.H" />
+		<Unit filename="MXPATH.CPP" />
+		<Unit filename="MXPATH.H" />
+		<Unit filename="MXSTRING.CPP" />
+		<Unit filename="MXSTRING.H" />
+		<Unit filename="Mx.cpp" />
+		<Unit filename="mxBmp.cpp" />
+		<Unit filename="mxBmp.h" />
+		<Unit filename="mxButton.cpp" />
+		<Unit filename="mxButton.h" />
+		<Unit filename="mxCheckBox.cpp" />
+		<Unit filename="mxCheckBox.h" />
+		<Unit filename="mxChoice.cpp" />
+		<Unit filename="mxChoice.h" />
+		<Unit filename="mxChooseColor.cpp" />
+		<Unit filename="mxChooseColor.h" />
+		<Unit filename="mxEvent.h" />
+		<Unit filename="mxFileDialog.cpp" />
+		<Unit filename="mxFileDialog.h" />
+		<Unit filename="mxGlWindow.cpp" />
+		<Unit filename="mxGlWindow.h" />
+		<Unit filename="mxGroupBox.cpp" />
+		<Unit filename="mxGroupBox.h" />
+		<Unit filename="mxImage.h" />
+		<Unit filename="mxInit.h" />
+		<Unit filename="mxLabel.cpp" />
+		<Unit filename="mxLabel.h" />
+		<Unit filename="mxLineEdit.cpp" />
+		<Unit filename="mxLineEdit.h" />
+		<Unit filename="mxLinkedList.h" />
+		<Unit filename="mxListBox.cpp" />
+		<Unit filename="mxListBox.h" />
+		<Unit filename="mxMenu.cpp" />
+		<Unit filename="mxMenu.h" />
+		<Unit filename="mxMenuBar.cpp" />
+		<Unit filename="mxMenuBar.h" />
+		<Unit filename="mxMessageBox.cpp" />
+		<Unit filename="mxMessageBox.h" />
+		<Unit filename="mxMultiLineEdit.cpp" />
+		<Unit filename="mxMultiLineEdit.h" />
+		<Unit filename="mxPcx.cpp" />
+		<Unit filename="mxPcx.h" />
+		<Unit filename="mxPopupMenu.cpp" />
+		<Unit filename="mxPopupMenu.h" />
+		<Unit filename="mxProgressBar.cpp" />
+		<Unit filename="mxProgressBar.h" />
+		<Unit filename="mxRadioButton.cpp" />
+		<Unit filename="mxRadioButton.h" />
+		<Unit filename="mxSlider.cpp" />
+		<Unit filename="mxSlider.h" />
+		<Unit filename="mxTab.cpp" />
+		<Unit filename="mxTab.h" />
+		<Unit filename="mxTga.cpp" />
+		<Unit filename="mxTga.h" />
+		<Unit filename="mxToggleButton.cpp" />
+		<Unit filename="mxToggleButton.h" />
+		<Unit filename="mxToolTip.cpp" />
+		<Unit filename="mxToolTip.h" />
+		<Unit filename="mxTreeView.cpp" />
+		<Unit filename="mxTreeView.h" />
+		<Unit filename="mxWidget.cpp" />
+		<Unit filename="mxWidget.h" />
+		<Unit filename="mxWindow.cpp" />
+		<Unit filename="mxWindow.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
